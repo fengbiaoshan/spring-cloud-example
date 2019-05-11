@@ -1,0 +1,15 @@
+server:
+    port: 80
+
+feign:
+    hystrix:
+        enabled: true
+
+#if not use eureka or other registries, need to specify app addresses
+#{app_name}:
+#   ribbon:
+#       eureka:
+#           enable: false
+#       listOfServers: localhost:8080, www.mi.org:80
+#       ServerListRefreshInterval: 15000
+
